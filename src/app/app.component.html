@@ -1,20 +1,145 @@
-<!--The content below is only a placeholder and can be replaced.-->
-<div style="text-align:center">
-  <h1>
-    Welcome to {{ title }}!
-  </h1>
-  <img width="300" alt="Angular Logo" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNTAgMjUwIj4KICAgIDxwYXRoIGZpbGw9IiNERDAwMzEiIGQ9Ik0xMjUgMzBMMzEuOSA2My4ybDE0LjIgMTIzLjFMMTI1IDIzMGw3OC45LTQzLjcgMTQuMi0xMjMuMXoiIC8+CiAgICA8cGF0aCBmaWxsPSIjQzMwMDJGIiBkPSJNMTI1IDMwdjIyLjItLjFWMjMwbDc4LjktNDMuNyAxNC4yLTEyMy4xTDEyNSAzMHoiIC8+CiAgICA8cGF0aCAgZmlsbD0iI0ZGRkZGRiIgZD0iTTEyNSA1Mi4xTDY2LjggMTgyLjZoMjEuN2wxMS43LTI5LjJoNDkuNGwxMS43IDI5LjJIMTgzTDEyNSA1Mi4xem0xNyA4My4zaC0zNGwxNy00MC45IDE3IDQwLjl6IiAvPgogIDwvc3ZnPg==">
-</div>
-<h2>Here are some links to help you start: </h2>
-<ul>
-  <li>
-    <h2><a target="_blank" rel="noopener" href="https://angular.io/tutorial">Tour of Heroes</a></h2>
-  </li>
-  <li>
-    <h2><a target="_blank" rel="noopener" href="https://github.com/angular/angular-cli/wiki">CLI Documentation</a></h2>
-  </li>
-  <li>
-    <h2><a target="_blank" rel="noopener" href="https://blog.angular.io/">Angular blog</a></h2>
-  </li>
-</ul>
 
+
+<mat-sidenav-container class="example-container">
+  
+  <mat-sidenav class="sidenav sidenav-color" mode="side" opened  [fixedInViewport]="true">  
+  <mat-nav-list>
+      <img src="../assets/displaypicture.jpg" width="100px" height="100px">
+    <div class="space">
+    <a class="space-anchor text-primary" mat-list-item [ngx-scroll-to-duration]="1000" [ngx-scroll-to]="'#about'" > ABOUT </a>
+    <a class="space-anchor text-primary" mat-list-item [ngx-scroll-to-duration]="1000" [ngx-scroll-to]="'#experience'"> EXPERIENCE </a>
+    <a class="space-anchor text-primary" mat-list-item [ngx-scroll-to-duration]="1000" [ngx-scroll-to]="'#education'"> EDUCATION </a>
+    <a class="space-anchor text-primary" mat-list-item [ngx-scroll-to-duration]="1000" [ngx-scroll-to]="'#skills'"> SKILLS </a>
+    
+  </div>
+  </mat-nav-list>
+  
+  </mat-sidenav>
+  
+</mat-sidenav-container>
+
+<!--The content below is only a placeholder and can be replaced.-->
+<div id="about" class="content"  
+    fxLayout="column" 
+    fxLayout.xs="column"
+    fxLayout.sm="column"
+    >
+
+<div fxFlex="500px"  class="about" >
+    <div class="text-secondary">SUMUKH
+      <span>BALLAL</span>
+    </div>
+    <hr>  
+    <div class="subheading"> NIBM Road, Pune, Maharashtra -411048  ·</div>
+    <div class="subheading">+91 9975054434 </div>
+    <div class="subheading">BNY Mellon Technology, Pune</div>
+  
+    <div>
+        <p class="about_para"> Over 1 year of Information Technology experience with focus on development, production support, 
+          code release engineering. Well versed in current DevOps and Release Management/Engineering practices, 
+          including continuous integration and continuous delivery. 
+          Excellent verbal/oral communication skills.</p>
+        </div> 
+        
+        <a class="fa fa-linkedin-square icon" href="https://www.linkedin.com/in/sumukh-ballal-32a359b3/" ></a>
+        <a class="fa fa-envelope icon"  href="mailto:sumukhballal@gmail.com"></a>
+  </div>
+
+
+<div fxFlex="500px">
+  <div id="experience" >
+
+  </div>
+  <div class="about"> 
+    <div class="text-description">EXPERIENCE</div>
+    
+    <div  fxFlexLayout="row">
+      <div fxFlex="70">
+        <p class="designation">DEVOPS ENGINEER</p>
+      </div>
+      <div fxFlex="20">
+        <p style="color:orangered">August 2017 - Present</p>
+      </div>
+    </div>
+    <div>
+    <p class="subheading">BNY MELLON TECHNOLOGY</p>
+    </div>
+    <hr>
+    <div>
+    <p class="about_para experience">DevOps Engineer Currently working as a DevOps engineer primarily handling enterprise Jenkins/Sonarqube and our Private cloud solution for all the application teams withing the organization. This involves designing implementations 
+      for better and smoother workflow for app teams using our infrastructure. This Also involves everything from writing code and scripting to going through 
+    entire SDLC to deployment into our private cloud network and any issues that come up between it </p>
+  </div>
+</div>
+  </div>
+
+  <div fxFlex="500px">
+    <div id="education"></div>
+    <div class="about">
+      <div class="text-description">EDUCATION</div>
+      <hr>
+      <div  fxFlexLayout="row">
+        <div fxFlex="70">
+          <p class="designation">Electronics & Telecommunication Engineering</p>
+        </div>
+        <div fxFlex="20">
+          <p style="color:orangered">JULY 2013 - JULY 2017</p>
+        </div>
+      </div>
+      <div>
+      <p class="subheading">PUNE INSTITUTE OF COMPUTER TECHNOLOGY</p>
+      </div>
+      <hr>
+
+
+      <div  fxFlexLayout="row">
+          <div fxFlex="70">
+            <p class="designation">Junior College</p>
+          </div>
+          <div fxFlex="20">
+            <p style="color:orangered">JULY 2011 - JULY 2013</p>
+          </div>
+        </div>
+        <div>
+        <p class="subheading">SARDAR DASTUR JUNIOR COLLEGE</p>
+        </div>
+
+        <hr>
+
+        <div  fxFlexLayout="row">
+            <div fxFlex="70">
+              <p class="designation">High School</p>
+            </div>
+            <div fxFlex="20">
+              <p style="color:orangered">JULY 2000 - JULY 2011</p>
+            </div>
+          </div>
+          <div>
+          <p class="subheading">ST. MARY'S HIGH SCHOOL</p>
+          </div>
+     
+  </div>
+    </div>
+
+    <div fxFlex="500px" id="skills" class="about">
+        <div class="text-description">EXPERIENCE</div>
+        
+        <div  fxFlexLayout="row">
+          <div fxFlex="70">
+            <p class="designation"></p>
+          </div>
+          <div fxFlex="20">
+            <p style="color:orangered"></p>
+          </div>
+        </div>
+        <div>
+        <p class="subheading">BNY MELLON TECHNOLOGY</p>
+        </div>
+        <hr>
+        <div>
+        <p class="about_para experience">DevOps Engineer Currently working as a DevOps engineer primarily handling enterprise Jenkins/Sonarqube and our Private cloud solution for all the application teams withing the organization. This involves designing implementations 
+          for better and smoother workflow for app teams using our infrastructure. This Also involves everything from writing code and scripting to going through 
+        entire SDLC to deployment into our private cloud network and any issues that come up between it </p>
+      </div>
+      </div>
+</div>

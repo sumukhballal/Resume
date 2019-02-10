@@ -23,7 +23,9 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.css"
+              "src/styles.css",
+              "C:/Users/Sumukh Ballal/Desktop/Angular/Resume/node_modules/font-awesome/css/font-awesome.css"
+              
             ],
             "scripts": []
           },

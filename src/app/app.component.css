@@ -1,0 +1,102 @@
+.text-primary{
+    color: grey;
+}
+.text-secondary{
+    color: #262626;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    font-size: 50px;
+    
+}
+.subheading{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #404040;
+    font-size: small;
+    font-weight:bolder;
+}
+
+.text-secondary span{
+    color: orangered;
+}
+.about{
+    margin-left: 250px;
+    margin-top: 100px;    
+}
+.icon{
+    color: #1a1a1a;
+    font-size: 32px;
+    margin-right: 10px;
+
+}
+.fa-envelope{
+    color: orangered;
+}
+
+.text-description{
+ color: #262626;
+ font-size: 32px;
+ font-weight: bolder;
+
+}
+
+.designation{
+    color: rgb(48, 53, 53);
+    font-weight: bolder;
+    font-size: 20px;
+    margin-bottom: 0;
+    bottom:0;
+}
+
+img {
+    border-radius: 50%;
+    margin-top: 100px;
+}
+
+.about_para{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #404040;
+    font-size: large;
+    margin-top: 50px;
+}
+
+.experience{
+    margin-right: 250px;
+}
+
+.company_name{
+    margin-top: 0;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        color: #404040;
+        font-size: large;
+}
+
+
+.example-container {
+    position: fixed;
+    top: 100px;
+    bottom: 100px;
+    left: 0;
+    right: 0;
+  }
+  .sidenav{
+      width: 200px;
+      text-align: center;
+  }
+
+  .sidenav-color{
+      background-color: black;
+  }
+
+  .space-anchor{
+    margin-top: 10px;
+    margin-left: 20px;
+}
+
+  .space{
+      margin-top: 50px;
+  }
+
+  .space-anchor:hover{
+    color: white;
+  }
+
